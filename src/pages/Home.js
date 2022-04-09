@@ -25,7 +25,7 @@ class Home extends React.Component {
                         <li><a href="#home" className="nav-link scrollto active"><i className="bx bx-home"><BiHome/></i> <span>Home</span></a></li>
                         <li><a href="#about" className="nav-link scrollto"><i className="bx bx-user"><BiUser/></i><span>About</span></a></li>
                         <li><a href="#portfolio" className="nav-link scrollto"><i className="bx bx-book-content"><BiBook/></i> <span>Portfolio</span></a></li>
-                        <li><a href="#blog" className="nav-link scrollto"><i className='bx bxl-blogger'><FaBloggerB/></i><span>Blog</span></a></li>
+                        <li><a href="#blog" className="nav-link scrollto"><i className='fa fal-blogger'><FaBloggerB/></i><span>Blog</span></a></li>
                         <li><a href="#contact" className="nav-link scrollto"><i className="bx bx-envelope"><BiEnvelope/></i><span>Contact</span></a></li>
                     </ul>
                 </nav>
@@ -47,7 +47,7 @@ class Home extends React.Component {
 
 
 
-            
+
             </>
         )
     }
