@@ -1,10 +1,14 @@
-import Home from './pages/Home'
+import {Header} from './component/Header'
+import {About} from './pages/About';
+import {Home} from './pages/Home'
 import './App.css';
 
 export const App = () => {
   return (
     <div className="app">
-     <Home />
+      <Header/>
+      <Home/>
+      <About/>
     </div>
   );
 }
