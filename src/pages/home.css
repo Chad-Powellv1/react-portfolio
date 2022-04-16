@@ -81,14 +81,14 @@ h6 {
 .home .home-container {
 	position: relative;
 	z-index: 2;
-	min-width: 300px;
+	min-width: 325px;
 }
 .home h1 {
 	margin: -250px 0 10px -40px;
 	padding: 5px;
 	font-size: 64px;
 	font-weight: 700;
-	line-height: 75px;
+	line-height: 80px;
 	color: #fff;
 }
 .home p {
@@ -117,7 +117,7 @@ h6 {
 	padding: 10px 20px;
 	text-align: center;
 	text-decoration: none;
-	margin: 5px 2px 30px;
+	margin: 5px 5px 45px;
 	cursor: pointer;
 	border-radius: 16px;
 }
