@@ -31,7 +31,7 @@ export const About = () => {
                                             <li><i className="bi bi-chevron-right"></i> <strong>Leadership Exp:</strong> <span>Placeholder text</span></li>
                                         </ul>
                                     </div>
-                                    <div class="col-lg-6">
+                                    <div className="col-lg-6">
                                         <ul>
                                             <li><i className="bi bi-chevron-right"></i> <strong>Instructor Exp:</strong> <span>Placeholder text</span></li>
                                             <li><i className="bi bi-chevron-right"></i> <strong>Training:</strong> <span>Placeholder text</span></li>
