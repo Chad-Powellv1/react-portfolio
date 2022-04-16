@@ -1,9 +1,8 @@
-import { Typewriter, useTypewriter, Cursor } from 'react-simple-typewriter'
+import { Typewriter } from 'react-simple-typewriter'
 import React from "react";
 import './home.css'
 
 export const Home = () => {
-
     return (
         <div>
             <section className="home d-flex flex-column justify-content-center align-items-center">
@@ -11,12 +10,12 @@ export const Home = () => {
                     <h1>Hello, <br />  I'm Chad</h1>
                     <p><span className="typed">
                         <Typewriter
-                            words = {[
+                            words={[
                                 'A Full Stack Web Developer',
                                 'An Experienced Leader',
                                 'A Proficient Instructor'
                             ]}
-                            loop = {0}
+                            loop={0}
                             cursor
                             typeSpeed={100}
                             deleteSpeed={60}
