@@ -11,13 +11,13 @@ export const About = () => {
 
                         <div className="section-title">
                             <h2>About</h2>
-                            <p>After spending twenty years in Law Enforcement helping other people solve problems,
-                             I knew I needed to continue in a career that would provide the same challenge. Throughout
-                             my career, I specialized in digital forensics and enjoyed working with computers which lead
-                             me to research computer coding. <br/><br/> The experience of solving problems through code allows me to
-                             continue achieving my goal of continuing my education while helping others. Each problem brings
-                             its own unique set of challenges, making this career a perfect match. Every challenge allows me
-                             to sharpen my skills and become more proficient in helping others solve problems</p>
+                            <p>After retiring from a 20-year Law Enforcement career, I knew I wanted to continue my calling as
+                                a problem-solver and facilitator. Throughout my career, I specialized in digital forensics and
+                                enjoyed working with computers which lead me to research computer coding. <br/><br/> The
+                                experience of solving problems through code allows me to continue achieving my goal of continuing
+                                my education while, still, helping my community. Each problem brings its own unique set of challenges,
+                                making this career a perfect match. Every challenge allows me to hone my skills to become a more proficient
+                                member of the problem-solving community.</p>
                         </div>
 
                         <div className="row">
