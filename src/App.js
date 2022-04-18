@@ -1,6 +1,7 @@
-import {Header} from './component/Header'
+import {Projects} from './pages/Projects';
+import {Header} from './component/Header';
 import {About} from './pages/About';
-import {Home} from './pages/Home'
+import {Home} from './pages/Home';
 import './App.css';
 
 export const App = () => {
@@ -9,6 +10,7 @@ export const App = () => {
       <Header/>
       <Home/>
       <About/>
+      <Projects/>
     </div>
   );
 }
