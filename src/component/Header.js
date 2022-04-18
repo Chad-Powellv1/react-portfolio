@@ -1,4 +1,4 @@
-import './header.css';
+import '../App.css';
 import React from 'react';
 import logo from '../assets/logo.png';
 import { FaBloggerB } from "react-icons/fa";
