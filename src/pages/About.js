@@ -1,6 +1,6 @@
-import './about.css'
-import React from 'react';
 import chad from '../assets/chad.jpg'
+import React from 'react';
+import '../App.css'
 
 export const About = () => {
     return (
