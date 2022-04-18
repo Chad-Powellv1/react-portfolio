@@ -17,6 +17,7 @@ export const Home = () => {
                             ]}
                             loop={0}
                             cursor
+                            cursorStyle='|'
                             typeSpeed={100}
                             deleteSpeed={60}
                             delaySpeed={2000}
