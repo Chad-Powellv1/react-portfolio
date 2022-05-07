@@ -11,7 +11,7 @@ export const Projects = () => {
     let gameApp = 'https://chad-powellv1.github.io/react-tictactoe/';
 
     return (
-        <main className="main">
+        <main className="main" id='projects'>
             <section className="project section">
                 <div className="container">
 

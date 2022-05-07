@@ -4,6 +4,7 @@ import logo from '../assets/logo.png';
 import { FaBloggerB } from "react-icons/fa";
 import { BsGithub, BsLinkedin, } from "react-icons/bs";
 import { BiHome, BiUser, BiBook, BiEnvelope } from 'react-icons/bi'
+import { NavHashLink as Link } from 'react-router-hash-link';
 
 export const Header = () => {
   return (
@@ -21,11 +22,11 @@ export const Header = () => {
                     </div>
                 <nav className="navbar nav-menu">
                     <ul>
-                        <li><a href="#home" className="nav-link scrollto active"><i className="bx bx-home"><BiHome/></i> <span>Home</span></a></li>
-                        <li><a href="#about" className="nav-link scrollto"><i className="bx bx-user"><BiUser/></i><span>About</span></a></li>
-                        <li><a href="#portfolio" className="nav-link scrollto"><i className="bx bx-book-content"><BiBook/></i> <span>Portfolio</span></a></li>
-                        <li><a href="#blog" className="nav-link scrollto"><i className='bx bxl-blogger'><FaBloggerB/></i><span>Blog</span></a></li>
-                        <li><a href="#contact" className="nav-link scrollto"><i className="bx bx-envelope"><BiEnvelope/></i><span>Contact</span></a></li>
+                       <li><Link to="#home" className="nav-link scrollto active"><i className="bx bx-home"><BiHome/></i> Home</Link></li> 
+                        <li><Link to="#about" className="nav-link scrollto"><i className="bx bx-user"><BiUser/></i>About</Link></li> 
+                        <li><Link to="#projects" className="nav-link scrollto"><i className="bx bx-book-content"><BiBook/></i> Portfolio</Link></li> 
+                        {/* <li><Link to="#blog" className="nav-link scrollto"><i className='bx bxl-blogger'><FaBloggerB/></i>Blog</Link></li>  */}
+                        <li><Link to="#contact" className="nav-link scrollto"><i className="bx bx-envelope"><BiEnvelope/></i>Contact</Link></li> 
                     </ul>
                 </nav>
                 </div>

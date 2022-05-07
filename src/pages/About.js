@@ -4,7 +4,7 @@ import '../App.css'
 
 export const About = () => {
     return (
-        <div>
+        <div id='about'>
             <main className="main">
                 <section className="about">
                     <div className="container">
