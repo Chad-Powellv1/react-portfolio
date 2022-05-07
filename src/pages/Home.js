@@ -4,7 +4,7 @@ import '../App.css'
 
 export const Home = () => {
     return (
-        <div>
+        <div id='home'>
             <section className="home d-flex flex-column justify-content-center align-items-center">
                 <div className="home-container" data-aos="fade-in">
                     <h1>Hello, <br />  I'm Chad</h1>
